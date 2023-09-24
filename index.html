@@ -1,53 +1,65 @@
 <html>
 <!-- root of DOM -->
   <head>
-    <title>Communications Lab</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="background.css">
+    <title>30MFF</title>
   </head>
-
   <body>
-    <!-- All the content of the webpage -->
-    <center><h1>Communications Lab</h1></center>
-    <center><h2>Arts Center Room 112</h2></center>
+    <!-- HEADER -->
+    <header id="home" class="full-screen">
+      <nav class="stroke">
+        <ul>
+          <li><a class="active" href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#video">Video</a></li>
+        </ul>
+      </nav>
+      <div class="title-text">
+        <h1>HOME</h1>
+        <p>Madina Yeleukina</p>
+      </div>
+      <i class="arrow-down">
+        <a href="#about"><span></span></a>
+      </i>
+    </header>
 
-    <p>This is me creating my <i>first</i> web page for the <b>communications lab</b> class.</p>
-<!--     <p>I am another <i>paragraph</i> of text..</p> -->
+    <!-- ABOUT SECTION -->
+    <section id="about" class="first-section full-screen">
+      <h2>About</h2>
+      <div class="slider center">
+        <!-- slider images -->
+        <div class="slide first-slide">
+          <img src="me.jpg" alt="Hi! this is me"/>
+        </div>
+        <div class="slide">
+          <img src="twohome.jpg" alt="I call home two places"/>
+        </div>
+        <div class="slide">
+          <img src="invite.jpg" alt="And I want to invite you to one of them"/>
+        </div>
+        <!-- control buttons -->
+        <button class="button button-prev"><span></span></button>
+        <button class="button button-next"><span></span></button>
+      </div>
+      <div class="plant-image">
+        <img src="leaf.png" alt="green plant"/>
+      </div>
+      <i class="arrow-down">
+        <a href="#video"><span></span></a>
+      </i>
+    </section>
 
-    <ol>
-      <li>item 1</li>
-      <li>item 2</li>
-      <li>item 3</li>
-    </ol>
+    <!-- VIDEO SECTION -->
+    <section id="video" class="second-section full-screen">
+      <h2>Video</h2>
+      <iframe src="https://www.youtube.com/embed/y_8DPlRFHPo"></iframe>
+      <i class="arrow-down">
+        <a href="#home"><span></span></a>
+      </i>
+    </section>
 
-    <br/>
-
-    <!-- generic -->
-    <div id="gallery">
-      <b><h3>This is a gallery of cat <span>images</span></h3></b>
-    </div>
-
-    <!-- links -->
-    <!-- <a href="page.html">I am a link to another page</a>
-    <a href="#gallery">internal link</a> -->
-
-    <p>You may find below the following images:</p>
-    <ul>
-      <li>Kitty</li>
-      <li>Dancing cat</li>
-      <li>Sitting cat</li>
-    </ul>
-
-    <!-- images as links-->
-    <center>
-      <a href="https://www.google.com/search?client=safari&sca_esv=563011930&rls=en&q=kitty&tbm=isch&source=lnms&sa=X&ved=2ahUKEwiPg5HuyJWBAxVggP0HHTxVAYIQ0pQJegQIDBAB">
-        <img src="kitty.jpg" alt-text="what is the image of" width="190" height="150"/>
-      </a>
-      <a href="https://www.google.com/search?client=safari&sca_esv=563011930&rls=en&q=dancing+cat&tbm=isch&source=lnms&sa=X&ved=2ahUKEwjJ9pP8yJWBAxV2g_0HHWskC0cQ0pQJegQIDBAB">
-        <img src="cat-cat-dance.gif" alt-text="what is the image of" width="150" height="150"/>
-      </a>
-      <a href="https://www.google.com/search?client=safari&sca_esv=563011930&rls=en&q=sitting+cat&tbm=isch&source=lnms&sa=X&ved=2ahUKEwisjaWNyZWBAxUag_0HHYc3BWoQ0pQJegQICxAB">
-        <img src="https://media.istockphoto.com/photos/european-short-haired-cat-picture-id1072769156?k=20&m=1072769156&s=612x612&w=0&h=k6eFXtE7bpEmR2ns5p3qe_KYh098CVLMz4iKm5OuO6Y=" width="230" height="150"/>
-      </a>
-    </center>
-
+  <script src="script.js"></script>
   </body>
 </html>

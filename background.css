@@ -1,0 +1,229 @@
+/* HELPER CLASSES */
+
+.full-screen {
+  width: 100vw;
+  height: 100%;
+  min-height: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+}
+
+/* GENERAL */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #000000;
+  font-size: 48px;
+}
+
+h2 {
+  color: #000000;
+  font-size: 36px;
+}
+
+/* SCROLL DOWN ARROWS */
+
+.scroll-down a, .scroll-down a:visited {
+  color: inherit;
+}
+
+.arrow-down a {
+  position: absolute;
+  z-index: 5;
+  cursor: pointer;
+  bottom: 70px;
+  right: auto;
+  left: 50%;
+  margin: auto;
+  display: inline-block;
+}
+
+.arrow-down a span { 
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 36px;
+  height: 36px;
+  margin-left: -12px;
+  border-left: 2px solid #000; 
+  border-bottom: 2px solid #000;
+  transform: rotate(-45deg);
+}
+
+header .arrow-down a span {
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.second-section .arrow-down a span {
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000;
+  transform: rotate(135deg);
+}
+
+.arrow-down a:hover {
+  opacity: .5;
+}
+
+/* HEADER */
+
+header {
+  background-color: #F0F8FF;
+  padding: 250px 0;
+  text-align: center;
+  background-image: url("banner-yellow-sofa.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+header p {
+  font-size: 20px;
+}
+
+/* NAVIGATION */
+
+nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #ddd;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+
+nav ul li a:hover {
+  color: #111;
+}
+
+/* SECTIONS */
+
+section {
+  position: relative;
+  padding: 40px 10px 10px 40px;
+}
+
+.second-section {
+  background-color: #FFFDD0;
+}
+
+.plant-image {
+  position: absolute;
+  width: 100;
+  height: auto;
+  top: 0px;
+  right: 0px;
+  z-index: 4;
+}
+
+/* SLIDER */
+
+.slider {
+  width: 878;
+  height: 577;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  transition: all 0.5s;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.button {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  z-index: 3;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  font-size: 30px;
+  font-color: #666;
+}
+
+.button span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 12px;
+  height: 12px;
+  margin-left: -12px;
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+
+.button-prev span {
+  transform: rotate(45deg);
+}
+
+.button-next span {
+  transform: rotate(-135deg);
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
+.button-prev {
+  top: 45%;
+  left: 2%;
+}
+
+.button-next {
+  top: 45%;
+  right: 2%;
+}
+
+/* VIDEO */
+
+iframe {
+    position: relative;
+    height: 90%;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
