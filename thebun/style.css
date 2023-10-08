@@ -1,0 +1,94 @@
+html{
+	/* Set height of the html page to 100% of the browser height */
+	height: 100%;
+	/* Hide horizontal scroll */
+	overflow-x: hidden;
+}
+
+body{
+	/* Set height of the body to 100% -- separated out of html to allow scrollTo animation */
+	height: 100%;
+	margin: 0px;
+}
+
+/*
+Starting section
+*/
+#start{
+	height: 100%;
+	background-image: url("img/background.jpg");
+	background-attachment: fixed;
+	background-size: auto;
+	background-position: center;
+	background-size: 100%;
+	font-size: 50px;
+}
+h1 {
+	color: white;
+}
+
+/* 
+Navigation Bar 
+*/
+#nav{
+	/* Fix navigation bar at the top middle of the web page */
+    position: fixed;
+    /* calc() CSS function calculates numbers of different units */
+    left: calc(50% - 50px);
+    top: 20px;
+    /* Display nav bar on top of everything else */
+    z-index: 1;
+}
+
+.nav-btn{
+	width: 20px;
+    height: 20px;
+    /* Make square div into a circle */
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid black;
+    display: inline-block;
+    cursor: pointer;
+    /* transition changes in background-color */
+    transition: background-color 0.5s;
+}
+
+/* When a nav-btn is hovered on, set background-color to black */
+.nav-btn:hover{
+	background-color: black;
+}
+
+
+/*
+Main Story
+*/
+#start, .story {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-left: 50px;
+	padding-right: 50px;
+	background-color: transparent;
+}
+
+.image{
+	height: 500px;
+    width: 50%;
+    border: 2px solid black;
+}
+
+img {
+	width: 70%;
+	aspect-ratio: 1/1;
+	object-fit: cover;
+}
+
+/* 
+Text
+*/
+.text{
+	margin: 20px;
+	width: 40%;
+	font-size: 20px;
+}
