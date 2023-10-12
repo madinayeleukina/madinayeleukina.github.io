@@ -1,0 +1,83 @@
+.panel {
+	position:relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 50px;
+	height: 500px;
+    width: 100%;
+}
+
+.image {
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+  	margin-right: auto;
+}
+
+img {
+	object-fit: cover;
+}
+
+.image-4, .image-6, .image-7, .image-word {
+	position: absolute;
+	height: 500px;
+    width: 500px;
+}
+
+#image-bear, #image-worm {
+	visibility: hidden;
+}
+
+#image-reject {
+	visibility: hidden;
+}
+
+#image-argument {
+	visibility: hidden;
+}
+
+.words {
+	height: 500px;
+	width: 500px;
+	position: absolute;
+}
+
+.image-word {
+	height: 120px;
+	width: 151px;
+}
+
+.image-word:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+#word-bear {
+	top: 121px;
+	left: 199px;
+}
+
+#word-worm {
+	top: 109px;
+	right: 0px;
+}
+
+#word-horse {
+	top: 49px;
+	left: 10px;
+}
+
+.buttons {
+	position: absolute;
+	z-index: 3;
+	bottom: 10px;
+}
+
+.buttons button {
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 15px;
+}
