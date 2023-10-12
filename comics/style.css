@@ -21,7 +21,7 @@ img {
 	object-fit: cover;
 }
 
-.image-4, .image-6, .image-7, .image-word {
+.image-4, .image-6, .image-7 {
 	position: absolute;
 	height: 500px;
     width: 500px;
@@ -46,28 +46,37 @@ img {
 }
 
 .image-word {
-	height: 120px;
-	width: 151px;
+	position: absolute;
+	z-index: 6;
+}
+
+.image-word-overline {
+	position: absolute;
+	z-index: 5;
+	visibility: hidden;
 }
 
 .image-word:hover {
-	transform: scale(1.1);
 	cursor: pointer;
+	background-image: url(pink-overline.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center; 
 }
 
 #word-bear {
-	top: 121px;
-	left: 199px;
+	top: 112px;
+	left: 193px;
 }
 
 #word-worm {
-	top: 109px;
-	right: 0px;
+	top: 99px;
+	right: -8px;
 }
 
 #word-horse {
-	top: 49px;
-	left: 10px;
+	top: 40px;
+	left: 4px;
 }
 
 .buttons {
