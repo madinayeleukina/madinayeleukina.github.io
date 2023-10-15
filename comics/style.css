@@ -46,6 +46,8 @@ img {
 }
 
 .image-word {
+	width: 120px;
+	/*height: 90px;*/
 	position: absolute;
 	z-index: 6;
 }
@@ -58,25 +60,30 @@ img {
 
 .image-word:hover {
 	cursor: pointer;
-	background-image: url(pink-overline.png);
+	background-image: url(outline.png);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-position: center; 
+	background-position: center;
+	background-size: 100%;
+}
+
+#word-bear:hover {
+	background-image: url(bear-outline.png);
 }
 
 #word-bear {
-	top: 112px;
-	left: 193px;
+	bottom: 85px;
+	right: 110px;
 }
 
 #word-worm {
-	top: 99px;
-	right: -8px;
+	top: 143px;
+	left: 85px;
 }
 
 #word-horse {
-	top: 40px;
-	left: 4px;
+	top: 18px;
+	left: 190px;
 }
 
 .buttons {

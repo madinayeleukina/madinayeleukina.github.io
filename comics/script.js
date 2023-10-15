@@ -35,7 +35,7 @@ function showPicture(number) {
 					panelFourImages[1].style.visibility = "visible";
 					panelSevenImages[1].style.visibility = "visible";
 					break;
-			case 2: panelSixImages[1].style.visibility = "visible";
+			case 2: panelSixImages[2].style.visibility = "visible";
 					panelFourImages[2].style.visibility = "visible";
 					panelSevenImages[1].style.visibility = "visible";
 					break;
