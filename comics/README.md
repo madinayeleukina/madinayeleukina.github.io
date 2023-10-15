@@ -1,12 +1,18 @@
 Naijah:
+
 Alternate Histories: The Trojan Horse, a comic by Diana, Izah, Madina, and Naijah
+
 In this comic, we created an alternate history of the famous story of the Trojan Horse. In this story, the Greeks played a trick on their enemies in the city of Troy. They built a large wooden horse, and while half of the Greeks pretended to sail away in the night, the other half of their army hid inside the horse. The next morning, the Trojans saw the horse as a gift, celebrating the surrender of the Greeks who had sailed away. They let the horse inside their gates, and the Greeks inside slipped out, opened the gates for the rest of the Greeks who sailed back, and won the battle. 
+
 We recreated this story with an alternate path: what if the Greeks had built a wooden worm or a bear instead of a horse? We allow the user to select the type of animal the Greeks build (worm, horse, or bear), which takes them along a different storyline where the Greeks were not let into the gates because of the type of animal they chose. We wanted to create a goofy, fun comic that plays on history, using bright colors and a wacky storyline.
+
 Throughout the process, we had some difficulty in maintaining a coherent storyline throughout each of the three paths the story could take, based on user interaction. We often got confused about which panels needed to go where, and how many different versions of a panel we needed. We addressed this issue by creating a wireframe of sorts that visually represented the storylines, and were able to divide our panels and draw them from there.
+
 We also struggled to maintain a similar comic style throughout, as each of us have different art styles as we drew, luckily the different storylines were each drawn by one person, creating consistency within storylines. We utilized apps like Procreate, Sketchbook, Photoshop, Illustrator, and Canva throughout the process to create mockups of images, draw and edit images, and add text bubbles to our panels. My contribution for this project was drawing four panels using Sketchbook and Canva, and creating mockups with Photoshop. I also helped solidify the original concept, and create a wireframe to outline the overall storylines.
 Overall, my expectations to create a wacky comic telling the story of an alternate history was met. In the future, we might pay greater attention to consistency of art style by having maybe one person draw the panels, or outline them, and have others just color them in. Ultimately, I’m glad with the level of work we completed, especially the interactivity of the project.
 
 Diana:
+
 For my portion of the project, I completed panels 2, 4a, and 6a using an air generator through canva. The before pictures are the images I was able to get using canva’s generator and the after is the final product with my additional design choices to add to the image using canva and illustrator.
 
 Panel 2: 
@@ -24,6 +30,7 @@ For this panel in particular I ran into a couple of issues. I realized that beca
 In the beginning of this project, I knew that I was gonna have a hard time with the drawing portion so I did rely on Canva’s AI generator, but I was able to make changes to the image that fit the story being told, which I was very happy about. I thought that this concept for a comic was actually really quirky and interesting so I enjoyed the process of creating the panels. I wish that the comic was a bit more consistent design wise across ALL panels, but I understand why it isn't. We had to divide up the work to ensure that nobody was doing more work than anyone else, plus everyone was using different tools with differing levels of skill, so it was bound to be a little inconsistent. My expectations were not exceeded because of the inconsistency with the design of the panels, but also I feel that, because we did 3 different story lines and luckily each person took on a storyline with their own design, it worked out for the best. The individual storylines coincided, but ALL together, I would say we could’ve done a bit more to create a more aesthetically consistent comic. 
 
 Madina:
+
 Out of all the panels, I created panel 1 and worked on the worm storyline for panels 4c and 6c. To make the panels, I used Illustrator to trace images I found on the Internet, like pictures of the city, several Greek warriors and a wooden worm. For panel 4c, I used the background Naijah had drawn to keep the comic style cohesive. Similarly, I tried to make my panel 6c match Diana's variation of the sixth panel.
 
 As for the challenges, drawing the city was a bit tricky because of its numerous tiny details. In the end I decided to draw the city with some abstract lines and colorful shapes. Finding a picture of a wooden worm was another challenge for me. I ended up finding an image of a real worm and tracing it with the minimalistic shapes to show that the worm is built from wood. 
