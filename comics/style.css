@@ -1,3 +1,7 @@
+body {
+	background-color: #B9D9EB;
+}
+
 .panel {
 	position:relative;
 	display: flex;
