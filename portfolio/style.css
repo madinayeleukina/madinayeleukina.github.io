@@ -1,13 +1,12 @@
+/* GENERAL */
+
 html{
-	/* Set height of the html page to 100% of the browser height */
 	height: 100%;
-	/* Hide horizontal scroll */
 	overflow-x: hidden;
 	font-family: Verdana, sans-serif;
 }
 
 body{
-	/* Set height of the body to 100% -- separated out of html to allow scrollTo animation */
 	height: 100%;
 	margin: 0px;
 }
@@ -19,6 +18,10 @@ body{
   box-sizing: border-box;
   overflow-x: hidden;
   overflow-y: hidden;
+}
+
+section {
+	margin-bottom: 50px;
 }
 
 /* NAVIGATION */
@@ -58,6 +61,8 @@ nav ul li a:hover, nav .active {
   color: #FF7518;
 }
 
+/* CONTACT */
+
 .contact-options {
 	margin-left: 0px;
 	padding-left: 0px;
@@ -68,21 +73,28 @@ nav ul li a:hover, nav .active {
 	padding-left: 0px;
 }
 
+/* IMAGES */
+
 .image {
 	height: 400px;
     width: 30%;
-    /*border: 2px solid black;*/
 }
 
 img {
-	/*width: 40%;*/
 	aspect-ratio: 1/1;
 	object-fit: cover;
 }
 
-/* 
-Text
-*/
+.image-center {
+	display: block;
+	width: 40%;
+	margin: auto;
+	margin-top: 40px;
+	height: 400px;
+}
+
+/* TEXT */
+
 .text{
 	margin: 20px;
 	width: 35%;
@@ -95,7 +107,6 @@ Text
 	padding-left: 50px;
 	padding-right: 50px;
 	background-color: transparent;
-	/*border: 3px solid green;*/
 }
 
 .text-hello {
@@ -128,20 +139,19 @@ Text
 	padding-right: 15%;
 }
 
+a {
+  all: unset;
+  font-weight: bold;
+}
+
+/* OTHER WORKS GRID */
+
 .row {
   display: flex;
 }
 
 .column {
   flex: 50%;
-}
-
-.image-center {
-	display: block;
-	width: 40%;
-	margin: auto;
-	margin-top: 40px;
-	height: 400px;
 }
 
 .grid-container {
@@ -169,18 +179,3 @@ Text
 		flex: 0 0 calc(100% - 20px);
 	}
 }
-
-a {
-  /*color: blue;*/
-  /*text-decoration: none; /* no underline */
-  all: unset;
-  font-weight: bold;
-}
-
-section {
-	margin-bottom: 50px;
-}
-/*
-#contact {
-	margin-bottom: 50px;
-}*/
